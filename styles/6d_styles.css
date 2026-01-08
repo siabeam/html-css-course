@@ -1,0 +1,17 @@
+p {
+    font-family: Montserrat;
+    margin-top: 0;
+    margin-bottom: 0px;
+    text-align: center;
+}    
+
+.caption{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.regular-text{
+    font-size: 20px;
+    margin-top:10px;
+
+}
