@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Flexbox Exercise 12g</title>
+    <style>
+        p{
+            font-family: Arial;
+            margin: 0;
+        }
+
+        img{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 30px;
+            margin:10px;
+        }
+
+        .div-line{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin:10px;
+        }
+
+        .div-text{
+             width: 200px;
+        }
+        .name{
+            font-weight: bold;
+            font-size:18px;
+        }
+
+        .handle{
+            color:grey;
+            font-size:20px;
+        }
+
+        .category{
+            color:grey;
+            font-size:16px;
+        }
+
+        button{
+            border:none;
+            background-color: rgb(100, 164, 255);
+            color:white;
+            padding:8px 14px;
+            border-radius: 6px;
+            font-family: Arial;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="div-line">
+        <img src="cat.jpg">
+        <div class="div-text">
+            <p class="name">oliver</p>
+            <p class="handle">the cat</p>
+            <p class="category">popular</p>
+        </div>
+        <button>Follow</button>
+    </div>
+
+    <div class="div-line">
+        <img src="cat2.jpg">
+        <div class="div-text">
+            <p class="name">Mimi</p>
+            <p class="handle">Sleepy Cat</p>
+            <p class="category">popular</p>
+        </div>
+        <button>Follow</button>
+    </div>
+
+    <div class="div-line">
+        <img src="dog.jpg">
+        <div class="div-text">
+            <p class="name">Rex</p>
+            <p class="handle">Happy Buldog</p>
+            <p class="category">popular</p>
+        </div>
+        <button>Follow</button>
+    </div>
+
+</body>
+
+</html>
