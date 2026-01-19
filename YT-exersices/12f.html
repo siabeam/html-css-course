@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Flexbox Exercise 12f</title>
+    <style>
+        p{
+            margin: 0;
+            font-family: Arial;
+            color: rgb(237, 230, 241);
+        }
+        .home{
+            font-weight: 500;
+            padding-left:15px;
+        }
+        .header{
+            background-color: rgb(112, 63, 167);
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            align-items: center;
+        }
+
+        button{
+            font-family: Arial;
+            font-size: 15px;
+            background-color: rgb(112, 63, 167);
+            border:solid;
+            color: white;
+            border-width: 1px;
+            color: white;
+            padding:8px 15px;
+            margin-right: 8px;
+            border-radius: 2px;
+        }
+
+        .search-bar{
+            flex:1;
+            padding-left: 20px;
+            height:26px;
+            margin-left:70px;
+            margin-right:35px;
+            max-width: 500px;
+            border:none;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <p class="home">Home</p>
+        <input class="search-bar" 
+               type="text"
+               placeholder="Search">
+        <button>Download</button>
+    </div>
+</body>
+</html>
