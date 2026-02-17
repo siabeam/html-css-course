@@ -3,8 +3,36 @@
 <html>
     <head>
         <title>15e</title>
+        <style>
+            
+            .pic-container{
+                position: relative;
+                width: 400px;
+                height: 420px;
+                background-color: palegreen;
+            }
+
+            img{
+                width: 400px;
+                height: 420px;
+                object-fit: cover;
+            }
+            .sale{
+                position: absolute;
+                background-color: black;
+                color:white;
+                font-family: Arial;
+                padding: 10px;
+                top: 15px;
+                right: 0;
+            }
+        </style>
     </head>
 
     <body>
+        <div class="pic-container">
+            <div class="sale">20% OFF</div>
+            <img src="clothes.png">
+        </div>
     </body>
 </html>
